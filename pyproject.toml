@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tfp-intro"
+version = "0.1.0"
+description = ""
+authors = ["pianocode <17282796+pianocode@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tensorflow = "2.16.1"
+tensorflow-probability = "^0.24.0"
+tf-keras = "2.16.0"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
